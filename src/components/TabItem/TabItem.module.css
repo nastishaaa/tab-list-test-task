@@ -1,0 +1,81 @@
+.btn {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #f4f7f9;
+    border: none;
+    width: 145px;
+    height: 48px;
+    border-radius: 0;
+    text-align: center;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.15;
+    color: #343434;
+    font-family: "Poppins", sans-serif;
+    transition: all 0.2s ease;
+    position: relative;
+}
+
+.btn:hover {
+    color: hsl(0, 0%, 100%);
+    background: #7f858d;
+    transform: translateY(15px);
+}
+
+.pinned {
+    background-color: #7f858d;
+    color: #343434;
+    border: 1px solid #343434;
+}
+
+.active {
+    background-color: #dce1e6;
+}
+
+.tabWrapper {
+    position: relative;
+    display: inline-block;
+}
+
+.svgIcon{
+    fill: #343434;
+}
+
+.popup {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 6px 10px;
+    background: white;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    white-space: nowrap;
+    z-index: 999;
+    margin-top: 4px;
+    border-radius: 4px;
+}
+
+.dropdownBtn{
+    width: 145px;
+        height: 48px;
+        background: #f4f7f9;
+        color: #343434;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: "Poppins", sans-serif;
+        font-size: 14px;
+        font-weight: 500;
+        border: none;
+        cursor: pointer;
+        transition: none;
+}
+
+.dropdownBtn:hover{
+    background: #7f858d;
+        color: #fff;
+        transform: none;
+        transition: none;
+}

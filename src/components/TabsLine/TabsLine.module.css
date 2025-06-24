@@ -1,0 +1,67 @@
+.container{
+    width: 1859px;
+    height: 72px;
+    background: #fefefe;
+    display: flex;
+    align-items: center;
+    overflow: visible;
+}
+
+.list{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    padding: 0;
+    overflow: visible;
+        
+        position: relative;
+    align-items: center;
+
+}
+
+.item {
+    width: 145px;
+    height: 48px;
+}
+
+.btnFirst{
+    width: 48px;
+    height: 48px;
+    background: #f4f7f9;
+        border: none;
+        border-radius: 0;
+            text-align: center;
+            transition: all 0.2s ease;
+}
+
+
+
+.btnFirst:hover {
+    background: #7f858d;
+    transform: translateY(15px);
+}
+
+.btnFirst{
+    width: 48px;
+}
+
+.btnDropList {
+    width: 36px;
+        height: 48px;
+        background: #7f858d;
+        text-align: center;
+        border: none;
+        border-radius: 0;
+        transition: all 0.2s ease;
+}
+
+.btnDropList:hover, .btnDropList:focus{
+    background: #4690e2;
+    transform: translateY(10px);
+}
+
+.dropMenuItems{
+    display: flex;
+    flex-direction: column;
+
+}
