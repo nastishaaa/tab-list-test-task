@@ -7,6 +7,6 @@ export default defineConfig({
     sourcemap: true,
   },
   server: {
-    historyApiFallback: true, // ⬅️ ось це важливо
+    historyApiFallback: true, 
   }
 });
